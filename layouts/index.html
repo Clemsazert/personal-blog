@@ -2,6 +2,13 @@
 <section class="landing">
   <h1>{{ .Site.Title }}</h1>
   <p class="tagline">{{ .Params.tagline }}</p>
+    {{ if .IsTranslated }}
+  <p class="landing-lang">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}">{{ i18n "language_version" }}</a>
+    {{ end }}
+  </p>
+  {{ end }}
   <div class="landing-description">
     {{ .Content }}
   </div>
@@ -9,11 +16,6 @@
     <a class="cta" href="{{ "/articles/" | relLangURL }}">Articles</a>
     <a class="cta" href="{{ "/til/" | relLangURL }}">{{ i18n "til" }}</a>
     <a class="cta cta-secondary" href="{{ "/about/" | relLangURL }}">{{ i18n "about" }}</a>
-    {{ if .IsTranslated }}
-      {{ range .Translations }}
-        <a class="cta cta-secondary" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
-      {{ end }}
-    {{ end }}
   </nav>
 </section>
 {{ end }}

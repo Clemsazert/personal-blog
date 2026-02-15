@@ -127,6 +127,20 @@ main {
   margin-top: 0;
 }
 
+.landing-lang {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.landing-lang a {
+  color: #555;
+  text-decoration: underline;
+}
+
+.landing-lang a:hover {
+  color: #1a1a1a;
+}
+
 /* List pages */
 .list-page {
   padding-top: 3rem;

@@ -2,7 +2,7 @@
 other = "Articles"
 
 [til]
-other = "Aujourd'hui j'ai appris"
+other = "Today I Learned"
 
 [til_short]
 other = "TIL"
@@ -15,3 +15,6 @@ other = "Pas encore d'articles."
 
 [read_more]
 other = "Lire la suite"
+
+[language_version]
+other = "English version 🇬🇧"
