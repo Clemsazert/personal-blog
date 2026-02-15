@@ -1,0 +1,6 @@
+baseURL = "https://blog.psammiteslab.fr"
+title = "Psammites Lab"
+
+[params]
+  description = "WIP my blog"
+  author = "Clément Di Domenico"
