@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="landing">
+  <h1>{{ .Site.Title }}</h1>
+  <p class="tagline">{{ .Params.tagline }}</p>
+  <div class="landing-description">
+    {{ .Content }}
+  </div>
+  <a class="cta" href="/posts/">Browse articles</a>
+</section>
+{{ end }}
