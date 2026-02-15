@@ -1,4 +1,4 @@
-+++
-title = 'Today I Learned'
-description = 'Short-form notes on things I learn day to day.'
-+++
+---
+title: "Aujourd'hui j'ai appris"
+description: "Notes courtes sur ce que j'apprends au quotidien."
+---

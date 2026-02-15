@@ -1,0 +1,17 @@
+[articles]
+other = "Articles"
+
+[til]
+other = "Today I Learned"
+
+[til_short]
+other = "TIL"
+
+[about]
+other = "About"
+
+[no_posts]
+other = "No posts yet."
+
+[read_more]
+other = "Read more"

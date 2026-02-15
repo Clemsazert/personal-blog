@@ -51,6 +51,11 @@ body {
   text-decoration: underline;
 }
 
+.header-nav .lang-switch {
+  border-left: 1px solid #ccc;
+  padding-left: 1.25rem;
+}
+
 main {
   max-width: 42rem;
   margin: 0 auto;

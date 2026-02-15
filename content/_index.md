@@ -1,8 +1,8 @@
 ---
-title: "Welcome"
-tagline: "Technical articles on software, systems, and beyond."
+title: "Bienvenue"
+tagline: "Articles techniques sur le logiciel, les systèmes et au-delà."
 ---
 
-Welcome to **Psammites Lab**, a blog where I share technical articles covering software engineering, infrastructure, and the tools I work with day to day.
+Bienvenue sur **Psammites Lab**, un blog où je partage des articles techniques sur le génie logiciel, l'infrastructure et les outils que j'utilise au quotidien.
 
-Whether you're looking for deep dives into specific technologies or practical tips from real-world experience, you'll find it here. Happy reading!
+Que vous cherchiez des analyses approfondies de technologies spécifiques ou des conseils pratiques tirés de l'expérience, vous trouverez tout ici. Bonne lecture !

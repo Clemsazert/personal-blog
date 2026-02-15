@@ -1,8 +1,8 @@
 baseURL = "https://blog.psammiteslab.fr"
 title = "Psammites Lab"
+defaultContentLanguage = "fr"
 
 [params]
-  description = "WIP my blog"
   author = "Clément Di Domenico"
 
 [[params.socials]]
@@ -12,3 +12,15 @@ title = "Psammites Lab"
 [[params.socials]]
   name = "LinkedIn"
   url = "https://linkedin.com/in/clément-di-domenico-79a33614a"
+
+[languages]
+  [languages.fr]
+    languageName = "Français"
+    weight = 1
+    [languages.fr.params]
+      description = "WIP mon blog"
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    [languages.en.params]
+      description = "WIP my blog"

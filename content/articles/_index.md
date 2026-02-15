@@ -1,4 +1,4 @@
 +++
 title = 'Articles'
-description = 'Longer technical posts and write-ups.'
+description = 'Articles techniques et billets approfondis.'
 +++

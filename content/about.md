@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "À propos"
 ---
 
-This is the about page for **Psammites Lab**. Content coming soon — check back later!
+Ceci est la page à propos de **Psammites Lab**. Contenu à venir — revenez bientôt !
