@@ -4,3 +4,11 @@ title = "Psammites Lab"
 [params]
   description = "WIP my blog"
   author = "Clément Di Domenico"
+
+[[params.socials]]
+  name = "GitHub"
+  url = "https://github.com/Clemsazert"
+
+[[params.socials]]
+  name = "LinkedIn"
+  url = "https://linkedin.com/in/clément-di-domenico-79a33614a"
