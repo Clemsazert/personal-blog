@@ -13,6 +13,44 @@ body {
   background: #fafafa;
 }
 
+/* Header */
+.site-header {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-home {
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.header-home:hover {
+  text-decoration: underline;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.header-nav a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.header-nav a:hover,
+.header-nav a.active {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
 main {
   max-width: 42rem;
   margin: 0 auto;

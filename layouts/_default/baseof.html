@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="{{ $css.Permalink }}">
 </head>
 <body>
+  {{ partial "header.html" . }}
   <main>
     {{- block "main" . }}{{- end }}
   </main>

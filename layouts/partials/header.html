@@ -1,0 +1,9 @@
+{{ if not .IsHome }}
+<header class="site-header">
+  <a class="header-home" href="/">{{ .Site.Title }}</a>
+  <nav class="header-nav">
+    <a href="/articles/"{{ if eq .Section "articles" }} class="active"{{ end }}>Articles</a>
+    <a href="/til/"{{ if eq .Section "til" }} class="active"{{ end }}>TIL</a>
+  </nav>
+</header>
+{{ end }}
