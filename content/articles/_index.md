@@ -1,4 +1,4 @@
 +++
 title = 'Articles'
-description = 'Articles techniques et billets approfondis.'
+description = 'Articles techniques et investigations approfondies'
 +++
