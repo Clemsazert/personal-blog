@@ -22,9 +22,9 @@ defaultContentLanguage = "fr"
     languageName = "Français"
     weight = 1
     [languages.fr.params]
-      description = "WIP mon blog"
+      description = "Mon blog perso"
   [languages.en]
     languageName = "English"
     weight = 2
     [languages.en.params]
-      description = "WIP my blog"
+      description = "My personal blog"
