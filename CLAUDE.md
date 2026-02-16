@@ -12,7 +12,16 @@ Hugo static site for "Psammites Lab" blog. No external dependencies — pure Hug
 - `hugo` — build static site to `public/`
 - `hugo new content/<section>/<slug>.md` — create new content using archetypes
 
-No test, lint, or CI setup exists.
+No test or lint setup exists.
+
+## CI/CD
+
+GitHub Actions workflow at `.github/workflows/hugo.yml`:
+- **Trigger**: push to `main` or manual `workflow_dispatch`
+- **Build**: Hugo extended v0.155.1 with Go 1.25.6 on Ubuntu
+- **Deploy**: GitHub Pages via `actions/deploy-pages@v4`
+- **Caching**: Hugo cache saved/restored between runs
+- **Concurrency**: `pages` group, does not cancel in-progress builds
 
 ## Architecture
 
