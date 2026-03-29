@@ -1,0 +1,10 @@
+services:
+  languagetool:
+    image: erikvl87/languagetool:6.7
+    container_name: LanguageTool
+    restart: always
+    ports:
+      - 8010:8010
+    environment:
+      - Java_Xms=512m
+      - Java_Xmx=1g

@@ -18,3 +18,6 @@ other = "Read more"
 
 [language_version]
 other = "Version française 🇫🇷"
+
+[date_format]
+other = "January 2, 2006"
