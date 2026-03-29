@@ -10,7 +10,7 @@ Hugo static site for "Psammites Lab" blog. No external dependencies — pure Hug
 
 - `hugo server` — local dev server at http://localhost:1313
 - `hugo` — build static site to `public/`
-- `hugo new content/<section>/<slug>.md` — create new content using archetypes
+- `hugo new content/<section>/<slug>` — create new content as a page bundle using archetypes
 
 No test or lint setup exists.
 
