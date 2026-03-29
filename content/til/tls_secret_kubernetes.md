@@ -1,6 +1,6 @@
 +++
 date = '2026-03-14T09:24:24+01:00'
-draft = true
+draft = false
 title = 'Comment stocker des certificats SSL dans un secret Kubernetes'
 +++
 

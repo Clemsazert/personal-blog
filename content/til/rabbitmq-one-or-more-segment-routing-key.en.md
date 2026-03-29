@@ -1,6 +1,6 @@
 +++
 date = '2026-03-15T20:54:37+01:00'
-draft = true
+draft = false
 title = 'How to create a binding with a routing key that has at least one segment in RabbitMQ'
 +++
 
