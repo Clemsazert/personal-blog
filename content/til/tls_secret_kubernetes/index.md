@@ -32,4 +32,4 @@ Dans quelques autres cas, je trouve que le type `Opaque` peut quand même être 
 
 1. Une application (souvent legacy) sur laquelle on n'a pas la possibilité de changer le nom du certificat injecté et le nom de la clé.
 
-2. Une application aillant besoin d'un format autre que `PEM`. Ici, on peut malgré tout s'en sortir avec un `InitContainer` container qui gère la transformation en `.p12` ou `.pfx` par exemple.
+2. Une application aillant besoin d'un format autre que `PEM`. Ici, on peut malgré tout s'en sortir avec un `InitContainer` qui gère la transformation en `.p12` ou `.pfx` par exemple.
