@@ -6,7 +6,7 @@
     <a href="{{ "/til/" | relLangURL }}"{{ if eq .Section "til" }} class="active"{{ end }}>TIL</a>
     {{ if .IsTranslated }}
       {{ range .Translations }}
-        <a class="lang-switch" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+        <a class="lang-switch" href="{{ .RelPermalink }}">{{ .Language.Label }}</a>
       {{ end }}
     {{ end }}
   </nav>

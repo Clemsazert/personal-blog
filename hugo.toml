@@ -19,12 +19,12 @@ defaultContentLanguage = "fr"
 
 [languages]
   [languages.fr]
-    languageName = "Français"
+    label = "Français"
     weight = 1
     [languages.fr.params]
       description = "Mon blog perso"
   [languages.en]
-    languageName = "English"
+    label = "English"
     weight = 2
     [languages.en.params]
       description = "My personal blog"
