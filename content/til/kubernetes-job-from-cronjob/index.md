@@ -1,6 +1,6 @@
 +++
 date = '2026-10-29T20:36:04+01:00'
-draft = true
+draft = false
 title = "Comment lancer un job Kubernetes à partir d'un CronJob ?"
 +++
 
